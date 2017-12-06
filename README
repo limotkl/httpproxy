@@ -17,3 +17,8 @@ notice:
 	5.If the single file size is larger than cache size you set, it will give you worning.
 
 	6.For cache replacement if the cache becomes full, delete the Least Recently Used (LRU)entry, if still not big enough for the new file keep deleting untill big enough.
+
+for test,open a client
+$> bash
+$> export http_proxy=http://remote02.cs.binghamton.edu:47590 && wget
+http://www.foo.com/bar.html
